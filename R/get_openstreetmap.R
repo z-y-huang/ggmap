@@ -58,7 +58,7 @@ get_openstreetmap <- function(
   urlonly = FALSE, filename = NULL, color = c('color','bw'), ...
 ){
 
-  .Defunct("OSM is at least temporarily not supported, see https://github.com/dkahle/ggmap/issues/117.")
+  # .Defunct("OSM is at least temporarily not supported, see https://github.com/dkahle/ggmap/issues/117.")
 
   # enumerate argument checking (added in lieu of checkargs function)
   args <- as.list(match.call(expand.dots = TRUE)[-1])
